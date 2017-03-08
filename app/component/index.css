@@ -254,6 +254,111 @@ body{
     background-color: #fff;
 }
 
+.ab-main-title{
+    padding: 30px 10px 2px 40px;
+    border-bottom: 1px solid #efefef;
+}
+
+.ab-main-title h5{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.ab-main-contain{
+    padding: 40px;
+}
+
+.ab-main-contain h1{
+    font-family: sans-serif;
+    font-size: 28px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+
+.ab-main-contain h3{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #777777;
+    font-weight: 100;
+}
+
+.ab-main-contain h5{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.ab-main-contain h6{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #666666;
+}
+
+.info-list{
+    padding-left: 0px;
+    list-style: none;
+    border:1px solid #efefef;
+}
+
+.info-list li{
+    border-bottom:1px solid #efefef; ;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-list li:last-child{
+    border-bottom: none;
+}
+
+.info-list li .info {
+    border-right:1px solid #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    color: #333333;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.info-list li .value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.03);
+    width: 65%;
+    color: #666666;
+}
+
+.info-list li span{
+    padding: 8px 0px;
+}
+
+.block-content ul{
+    margin:25px 0px 0px 0px;
+}
+
+.ab-exper p{
+    color: rgba(0,0,0,0.5);
+    font-family: sans-serif;
+}
+
+.ab-exper-title{
+    display: inline-block;
+}
+
+.ab-exper-title .glyphicon{
+    color:#666666
+}
+
+.ab-exper-title h6{
+    display: inline-block;
+    margin-left: 3px;
+}
+
+
+
 /* -------------------- Media queries -------------------- */
 
 
