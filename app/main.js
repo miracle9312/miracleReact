@@ -4,15 +4,23 @@
 'use strict';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Provider} from 'react-redux';
+import {syncHistoryWithStore} from 'react-router-redux'
+import routes from './routes'
+import {Router,browserHistory} from 'react-router';
 import configureStore from './redux/configureStore';
-import {Provider} from 'react-redux'
-import App from './component/app'
+import './component/index.css'
+
+
 const store = configureStore();
+const history = syncHistoryWithStore(browserHistory,store);
+history.listen( function(location){ return location});
 
 ReactDOM.render(
     <Provider store={store}>
-        <App />
+        <Router history={history}>
+            {routes}
+        </Router>
     </Provider>,
-
     document.getElementById('root')
 )

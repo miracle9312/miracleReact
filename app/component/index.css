@@ -3,3 +3,291 @@
     width: 200px;
     height: 120px;
 }
+.activeLink{
+    background-color: greenyellow;
+}
+
+.tColumns{
+    background-color: greenyellow;
+    border-color: #0d47a1;
+    border-width:2px;
+}
+
+body{
+    background-color: #efefef;
+}
+
+/*HOME PAGE*/
+/*==============================================*/
+.home-main{
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    background-image:url('../images/background.jpg');
+}
+
+.home-center{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    position: absolute;
+    bottom: -42em;
+}
+.home-button{
+    margin-top:30px;
+    border-radius: 30px;
+    padding: 20px 30px;
+    margin-right: 10px;
+    font-weight: 400;
+    background:#D55;
+    border-color: transparent;
+    clear: right;
+}
+
+.home-button:hover{
+    background: #9A1515!important;
+    border-color: #9A1515;
+}
+
+
+.home-button:active{
+    background:#9A1515!important;
+}
+
+.home-center-title{
+    color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.home-center-words{
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: .05em;
+    color:#fff;
+}
+
+/*MIRACLE PAGE*/
+/*=======================================*/
+.miracle-bgs{
+    width: 100%;
+    height:100vh;
+    background-color: #efefef;
+}
+
+.miracle-page{
+    margin-top: 80px;
+}
+
+
+/*WRAPPER COMPONENT*/
+/*=====================================*/
+.wrapper-panel-bg{
+    background-color: #fff;
+    width:278px;
+    height:224px;
+    transition: left 0.5s;
+    position: fixed;
+    top: 50px;
+    z-index: 9999;
+    box-shadow: 0 -4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-panel-ti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 45px;
+    padding-right: 42px;
+}
+
+.wp-color-list{
+    margin: 19px 0px 25px -41px;
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wp-color-btn{
+    height: 20px;
+    width: 20px;
+    display: block;
+    margin: 1px;
+}
+.wp-color-reset{
+    color: #33373d;
+    border: 2px solid #33373d;
+    padding: 5px 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.wp-color-reset:hover{
+    color:#fff;
+    background-color: #33373d;
+}
+
+.wrapper-panel-bg a,a:hover,a:visited,a:active{
+    text-decoration: none;
+}
+
+.wp-color-toggle{
+    background-color: #fff;
+    width: 44px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 278px;
+    top: 0px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+}
+
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.wp-color-toggle .glyphicon-globe{
+    font-size: 1.2em;
+    animation:rotation 2s infinite linear;
+}
+
+/*PHOTOBAR COMPONENT*/
+/*=============================================*/
+
+.pb-panel-bg{
+}
+
+.pb-panel-bg img{
+    width: 100%;
+}
+
+.pb-nav ul{
+    width: 100%;
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: -3px;
+}
+
+.pb-nav ul li .glyphicon{
+    font-size: 1.6em;
+}
+
+.pb-nav ul li {
+    border-bottom: 1px solid #26292e;
+}
+.pb-nav-bar{
+    display: flex;
+    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: smaller;
+    color:#85878b;
+    background-color: #33373d;
+    transition: color 0.5s;
+    transform: translateZ(0);
+    cursor:pointer;
+}
+
+
+.pb-nav-bar:hover{
+    color:#fff;
+}
+
+.pb-link-bg {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pb-link-bg ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 54px 15px 14px;
+}
+
+.pb-link-bg ul li div{
+    display: flex;
+    justify-content: center;
+    border: 2px #33373d solid;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    padding-bottom: 2px;
+    color:#33373d;
+    margin-right: 10px;
+}
+
+.pb-link-bg ul li .glyphicon{
+    font-size: 1em;
+    cursor:pointer;
+}
+
+.pb-link-text{
+    margin-bottom: 20px;
+    color: rgba(151, 151, 151, 1.5);
+    font-size: 13px;
+}
+
+/*ABOUT PAGE*/
+/*===============================================================*/
+.ab-contain{
+    background-color: #fff;
+}
+
+/* -------------------- Media queries -------------------- */
+
+
+/*iPad lanscape*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .pb-nav-bar{display: flex;justify-content: center;align-items: center}
+    .pb-nav ul li{width: 25%;display: inline-block;}
+    .pb-nav ul li a p{font-size: 0}
+}
+
+
+/* Tablet Portrait size -> standard 960 */
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .pb-nav-bar{display: flex;justify-content: center;align-items: center}
+    .pb-nav ul li{width: 25%;display: inline-block;}
+    .pb-nav ul li a p{font-size: 0}
+}
+
+
+/* Mobile Landscape Size -> Tablet Portrait size*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .pb-nav-bar{display: flex;justify-content: center;align-items: center}
+    .pb-nav ul li{width: 25%;display: inline-block;}
+    .pb-nav ul li a p{font-size: 0}
+}
+
+
+
+/* Mobile Portrait Size -> Mobile Landscape Size */
+@media only screen and (max-width:479px) {
+    .pb-nav-bar{display: flex;justify-content: center;align-items: center}
+    .pb-nav ul li{ width: 25%;display: inline-block;}
+    .pb-nav ul li a p{font-size: 0}
+}
+
+/* -------------------- End media queries -------------------- */
+

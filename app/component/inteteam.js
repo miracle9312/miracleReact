@@ -1,9 +1,9 @@
 /**
- * Created by miracle on 2017/2/22.
+ * Created by miracle on 2017/2/7.
  */
 import React from 'react';
 
-export default class App extends React.Component {
+export default class One extends React.Component {
     constructor(props){
         super(props)
     }
@@ -15,6 +15,7 @@ export default class App extends React.Component {
     render(){
         return(
             <div>
+                <p>this is <strong>routeTwo</strong></p>
                 {this.props.children}
             </div>
         )
