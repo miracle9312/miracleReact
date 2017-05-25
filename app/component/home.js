@@ -4,11 +4,16 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import test from '../redux/action/test';
-import {Link,browserHistory} from 'react-router'
+import {Link,browserHistory} from 'react-router';
+import InputTest from './inputest';
 
 export class App extends React.Component {
     constructor(props){
         super(props)
+        this.state={
+            val:'',
+            val1:''
+        }
     }
 
     componentDidMount(){
@@ -16,36 +21,53 @@ export class App extends React.Component {
         dispatch(test('miracle is handsome'));
     }
 
-    toMiracle=()=>{
-        browserHistory.push(API+'/one')
+    changeText=(event)=>{
+        this.setState({
+            val:event.target.value,
+            val1:event.target.value
+        })
+        console.log(event.target.value)
     }
+
+
+
+
+    /*toMiracle=()=>{
+        browserHistory.push(API+'/one')
+    }*/
 
     render(){
         return(
             <div className="home-main">
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-1">
-                        <div className="home-center">
-                            <div>
-                                <h2 className="home-center-title">Miracle's React</h2>
-                                <p className="home-center-words">This is a react product of miracle that include Miracle and Inteteam</p>
-                            </div>
-                            <a href="/one" onClick={this.toMiracle} className="btn btn-primary btn-md home-button home-buton-text">
-                                <span className="glyphicon glyphicon-fire" aria-hidden={true}></span>
-                                see the Miracle
-                            </a>
-                            <a href="/two" className="btn btn-primary btn-md home-button home-button-text">
-                                <span className="glyphicon glyphicon-fire" aria-hidden={true}></span>
-                                see the Inteteam
-                            </a>
-                        </div>
+                    <div className="col-md-4 col-md-offset-4">
+
+                        {/* <ul>
+                         <li>
+                         <div className="input-group">
+                         <span className="input-group-addon" id="login-uname">@</span>
+                         <input value = {this.state.val} onChange={this.changeText}/>
+                         </div>
+                         </li>
+                         <li>
+                         <div className="input-group">
+                         <span className="input-group-addon" id="login-uname">@</span>
+                         <InputTest
+                         value={this.state.val1}
+                         />
+                         </div>
+                         </li>
+                         </ul>*/}
+                        <Link to="/one" className="btn btn-primary btn-md home-button home-buton-text">
+                            <span className="glyphicon glyphicon-fire"></span>
+                            see the Miracle
+                        </Link>
+                        <Link to="/two" className="btn btn-primary btn-md home-button home-button-text">
+                            <span className="glyphicon glyphicon-fire" aria-hidden={true}></span>
+                            see the Inteteam
+                        </Link>
                     </div>
                 </div>
-                {/*<ul>
-                 <li><Link to="/one" activeClassName='activeLink'>One</Link></li>
-                 <li><Link to="/two" activeClassName='activeLink'>Two</Link></li>
-                 </ul>*/}
-
             </div>
         )
     }

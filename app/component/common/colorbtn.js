@@ -3,7 +3,8 @@
  */
 import React from 'react';
 import {connect} from 'react-redux';
-import selectThemeColor from '../../redux/action/selectThemeColor'
+import selectThemeColor from '../../redux/action/selectThemeColor';
+import PropTypes from 'prop-types'
 
 class ColorBtn extends React.Component{
     constructor(props){
@@ -25,7 +26,7 @@ class ColorBtn extends React.Component{
 }
 
 ColorBtn.propTypes={
-    color:React.PropTypes.string
+    color:PropTypes.string
 }
 
 function mapStateToProps(state){

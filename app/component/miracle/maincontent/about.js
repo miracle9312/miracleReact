@@ -11,7 +11,7 @@ class About extends React.Component{
 
     render(){
         return(
-            <div className="col-md-9" id="about">
+            <div className="col-md-9 main-content" id="about">
                 <div className="ab-contain">
                     <div className="ab-main">
                         <div className="ab-main-title">
@@ -33,12 +33,20 @@ class About extends React.Component{
                                                 <span className="value">邵学征</span>
                                             </li>
                                             <li>
-                                                <span className="info">生日</span>
-                                                <span className="value">1993.12.18</span>
+                                                <span className="info">教育程度</span>
+                                                <span className="value">硕士</span>
+                                            </li>
+                                            <li>
+                                                <span className="info">英语等级考试</span>
+                                                <span className="value">CET6(478)</span>
                                             </li>
                                             <li>
                                                 <span className="info">地址</span>
                                                 <span className="value">浙江省温州市</span>
+                                            </li>
+                                            <li>
+                                                <span className="info">目前所在城市</span>
+                                                <span className="value">湖北省武汉市</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -56,7 +64,80 @@ class About extends React.Component{
                                                 <span className="info">QQ</span>
                                                 <span className="value">744642793</span>
                                             </li>
+                                            <li>
+                                                <span className="info">身份证号</span>
+                                                <span className="value">330324199312186671</span>
+                                            </li>
+                                            <li>
+                                                <span className="info">生日</span>
+                                                <span className="value">1993.12.18</span>
+                                            </li>
                                         </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="ab-main">
+                        <div className="ab-main-title">
+                            <h5>Education</h5>
+                        </div>
+                        <div className="ab-main-contain">
+                            <div className="block-content row ab-exper">
+                                <div className="col-md-6">
+                                    <div>
+                                        <div>
+                                            <a style={{color:this.props.themeColor.color}} href="http://www.inteteam.com"><h5>华中科技大学</h5></a>
+                                            <div className="ab-exper-title">
+                                                <span className="glyphicon glyphicon-calendar"></span>
+                                                <h6>2015/9-2018/06</h6>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p>学位：硕士</p>
+                                            <p>专业：机械设计制造及其自动化</p>
+                                            <p>成绩：30%</p>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div>
+                                            <a style={{color:this.props.themeColor.color}} href="http://www.inteteam.com"><h5>获得奖励</h5></a>
+                                        </div>
+                                        <div>
+                                            <p>1、全国大学生数学建模竞赛河南省一等奖</p>
+                                            <p>2、国家励志奖学金</p>
+                                            <p>3、校优秀奖学金</p>
+                                            <p>4、校优秀毕业生</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-md-6">
+                                    <div>
+                                        <div>
+                                            <a style={{color:this.props.themeColor.color}} href="http://www.inteteam.com"><h5>洛阳理工学院</h5></a>
+                                            <div className="ab-exper-title">
+                                                <span className="glyphicon glyphicon-calendar"></span>
+                                                <h6>2011/9-2015/06</h6>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p>学位：本科</p>
+                                            <p>专业：机械设计制造及其自动化</p>
+                                            <p>成绩：10%</p>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div>
+                                            <a style={{color:this.props.themeColor.color}} href="http://www.inteteam.com"><h5>学生干部</h5></a>
+                                        </div>
+                                        <div>
+                                            <p>本科：院纪检部副部长</p>
+                                            <p>硕士：心理委员</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

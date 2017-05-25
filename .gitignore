@@ -28,6 +28,15 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 
+#custom
+#==========================
+# 忽略node_modules等
+node_modules
+npm-debug.log
+.idea/*
+
+#==========================
+
 # Thumbnails
 ._*
 

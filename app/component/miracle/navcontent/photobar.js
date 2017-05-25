@@ -6,8 +6,8 @@ import NavBtn from '../../common/navbtn';
 import LinkBtn from '../../common/linkbtn';
 
 const navbuttons=[
-    {icon:'glyphicon-user',name:'ABOUT',address:''},{icon:'glyphicon-camera',name:'PORTRAIT',address:'portrait'},
-    {icon:'glyphicon-send',name:'BLOG',address:'blog'},{icon:'glyphicon-earphone',name:'CONTACT',address:'contact'}
+    {icon:'glyphicon-user',name:'ABOUT',address:''}, {icon:'glyphicon-folder-open',name:'WROKS',address:'portrait'},
+    {icon:'glyphicon-earphone',name:'CONTACT',address:'contact'}, {icon:'glyphicon-send',name:'SLOGAN',address:'blog'}
     ];
 const linkbuttons=[
     {icon:'glyphicon-comment'},{icon:'glyphicon-heart'},
@@ -22,7 +22,7 @@ export default class PhotoBar extends React.Component{
     render(){
         return(
             <div className="col-md-3 pb-panel-bg">
-                <img src={require('images/me.jpg')} alt="me"/>
+                <img src={API+require('images/me.jpg')} alt="me"/>
                 <div className="pb-nav">
                     <ul>
                         {navbuttons.map((obj,i)=>{

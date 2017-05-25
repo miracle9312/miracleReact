@@ -13,6 +13,10 @@
     border-width:2px;
 }
 
+/*html{
+    font-size:12px;
+}*/
+
 body{
     background-color: #efefef;
 }
@@ -23,16 +27,26 @@ body{
     background-size:cover;
     width:100%;
     height:100vh;
-    background-image:url('../images/background.jpg');
+    background-image:url('../app/images/background.jpg');
 }
 
-.home-center{
+#home-center{
     display:flex;
-    flex-direction:column;
     justify-content:center;
-    align-items:flex-start;
-    position: absolute;
-    bottom: -42em;
+    align-items:center;
+    width:300px;
+    height: 300px;
+    background-color: #fff;
+}
+
+#home-center ul{
+    list-style: none;
+}
+
+#home-center li{
+    width:100%;
+    height: 50px;
+    margin: 10px;
 }
 .home-button{
     margin-top:30px;
@@ -68,6 +82,7 @@ body{
     letter-spacing: .05em;
     color:#fff;
 }
+
 
 /*MIRACLE PAGE*/
 /*=======================================*/
@@ -357,6 +372,70 @@ body{
     margin-left: 3px;
 }
 
+/*PORTRAIT PAGE*/
+/*============================================================*/
+
+#portrait ul{
+    list-style: none;
+}
+
+#portrait img{
+    width:100%;
+    height:auto;
+}
+
+#portrait .block-dropdown:hover{
+    cursor: pointer;
+}
+
+#portrait .block-content{
+    margin-bottom: 60px;
+}
+
+#portrait .stretch-content{
+    /*display: none;*/
+}
+
+
+/*CONTACT PAGE*/
+/*=======================================================*/
+
+.info-holder{
+    border:1px solid #efefef;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-holder p{
+    color: #2d2d2d;
+    font-size: 18px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.info-holder span.glyphicon{
+    position: relative;
+    top:-40px;
+    background-color: #fff
+}
+
+.con-message{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.con-message span{
+    left: 36%;
+    font-size: 50px
+}
+
 
 
 /* -------------------- Media queries -------------------- */
@@ -364,35 +443,62 @@ body{
 
 /*iPad lanscape*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .main-content{margin-top: 10px}
     .pb-nav-bar{display: flex;justify-content: center;align-items: center}
     .pb-nav ul li{width: 25%;display: inline-block;}
     .pb-nav ul li a p{font-size: 0}
+    #portrait .block-content img{ margin: 10px; border: 1px solid #efefef}
+
 }
 
 
 /* Tablet Portrait size -> standard 960 */
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .main-content{margin-top: 10px}
     .pb-nav-bar{display: flex;justify-content: center;align-items: center}
     .pb-nav ul li{width: 25%;display: inline-block;}
     .pb-nav ul li a p{font-size: 0}
+    #portrait .block-content img{ margin: 10px; border: 1px solid #efefef}
+
 }
 
 
 /* Mobile Landscape Size -> Tablet Portrait size*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .main-content{margin-top: 10px}
     .pb-nav-bar{display: flex;justify-content: center;align-items: center}
     .pb-nav ul li{width: 25%;display: inline-block;}
     .pb-nav ul li a p{font-size: 0}
+    #portrait .block-content img{ margin: 10px; border: 1px solid #efefef}
+
 }
 
 
 
 /* Mobile Portrait Size -> Mobile Landscape Size */
 @media only screen and (max-width:479px) {
+    .main-content{margin-top: 10px}
     .pb-nav-bar{display: flex;justify-content: center;align-items: center}
     .pb-nav ul li{ width: 25%;display: inline-block;}
     .pb-nav ul li a p{font-size: 0}
+    #portrait .block-content img{ margin: 10px; border: 1px solid #efefef}
+
 }
 
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px){
+    .img-md-3{width:33.33333333%}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px){
+    .img-md-3{width:33.33333333%}
+}
+
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px){
+    .img-md-3{width:33.33333333%}
+}
 /* -------------------- End media queries -------------------- */
 

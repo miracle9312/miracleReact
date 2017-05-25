@@ -2,6 +2,7 @@
  * Created by miracle on 2017/2/28.
  */
 import React from 'react';
+import PropTypes from 'prop-types'
 
 /*分割线*/
 export default class Segment extends React.Component{
@@ -17,7 +18,7 @@ export default class Segment extends React.Component{
 }
 
 Segment.propTypes={
-    height:React.PropTypes.any.isRequired,
-    width:React.PropTypes.any.isRequired,
-    color:React.PropTypes.string
+    height:PropTypes.any.isRequired,
+    width:PropTypes.any.isRequired,
+    color:PropTypes.string
 }
