@@ -13,9 +13,13 @@
     border-width:2px;
 }
 
-/*html{
-    font-size:12px;
-}*/
+html {
+    font-family: sans-serif; /* 1 */
+    line-height: 1.15; /* 2 */
+    -ms-text-size-adjust: 100%; /* 3 */
+    -webkit-text-size-adjust: 100%; /* 3 */
+    font-size: 12px;
+}
 
 body{
     background-color: #efefef;
