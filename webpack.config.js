@@ -3,8 +3,6 @@
  */
 var path = require('path');
 var webpack = require('webpack');
-const context = path.resolve(__dirname, 'app');
-/*const OpenBrowserPlugin = require('open-browser-webpack-plugin');*/
 
 
 module.exports = {
@@ -15,10 +13,10 @@ module.exports = {
     },
     resolve:{
         alias:{
-            component:__dirname+'/app/component',
-            images:__dirname+'/app/images',
-            globalcss:__dirname+'/globalcss'
-
+            component:__dirname + '/app/component',
+            images:__dirname + '/app/images',
+            generals:__dirname + '/app/component/generals',
+            inteteam:__dirname + '/app/component/inteteam',
         },
         extensions:['','.js','.jsx'],
     },
@@ -26,7 +24,8 @@ module.exports = {
     plugins: [
         /*定义全局变量*/
         new webpack.DefinePlugin({
-            API:JSON.stringify('http://localhost:8080/')
+            API:JSON.stringify('http://localhost:8080/'),
+            miracle:{}
         }),
     ],
 
@@ -60,8 +59,4 @@ module.exports = {
     devServer: {
         historyApiFallback: true,
     }
-
-    /*new webpack.DefinePlugin({
-        API: JSON.stringify('/api')
-    }),*/
 };

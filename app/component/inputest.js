@@ -17,10 +17,20 @@ export default class InputTest extends React.Component{
         })
     }
 
+    testFun=(e)=>{
+        console.log(e.keyCode)
+        alert('hello');
+    }
+
+    testFunn=(e)=>{
+        console.log(e.keyCode)
+        alert('world');
+    }
+
     render(){
         return(
             <div>
-                <input id="testEle"  value={this.props.value} type="text" className="form-control" placeholder="Username" aria-describedby="login-uname" />
+                <input onKeyUp={this.testFun} id="testEle"  value={this.props.value} type="text" className="form-control" placeholder="Username" aria-describedby="login-uname" />
             </div>
         )
     }

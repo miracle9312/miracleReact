@@ -5,12 +5,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d014186d-4c17-4de3-adfc-5153614860be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/globalcss/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/component/generals/M.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/component/inteteam/viewpagerjs/pager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/component/inteteam/viewpagerjs/scroller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/component/inteteam/viewpagerjs/viewpagerjs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/component/inteteam/viewpagerjs/viewpagerjs.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/.idea/mdui.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/css/mdui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/css/mdui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Black.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Black.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Black.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-BlackItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-BlackItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-BlackItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Bold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-BoldItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-BoldItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-BoldItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Light.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Light.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-LightItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-LightItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-LightItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Medium.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Medium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-MediumItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-MediumItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-MediumItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-RegularItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-RegularItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-RegularItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-RegularItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Thin.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Thin.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-Thin.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-ThinItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-ThinItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/fonts/roboto/Roboto-ThinItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/icons/material-icons/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/icons/material-icons/MaterialIcons-Regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/icons/material-icons/MaterialIcons-Regular.ijmap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/icons/material-icons/MaterialIcons-Regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/icons/material-icons/MaterialIcons-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/icons/material-icons/MaterialIcons-Regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/icons/material-icons/MaterialIcons-Regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/js/mdui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mdui/js/mdui.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/component/inteteam/viewpager/viewpager.css" afterPath="$PROJECT_DIR$/app/component/inteteam/viewpager/viewpager.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/component/inteteam/viewpager/viewpager.js" afterPath="$PROJECT_DIR$/app/component/inteteam/viewpager/viewpager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.js" afterPath="$PROJECT_DIR$/app/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/globalcss/index.css" afterPath="$PROJECT_DIR$/globalcss/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/component/inputest.js" afterPath="$PROJECT_DIR$/app/component/inputest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/component/inteteam.js" afterPath="$PROJECT_DIR$/app/component/inteteam.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bundle.js" afterPath="$PROJECT_DIR$/build/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="testReact1.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +101,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="viewpager.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpager/viewpager.js">
+      <file leaf-file-name="viewpagerjs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpagerjs/viewpagerjs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+            <state relative-caret-position="-126">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
               <folding>
                 <element signature="e#44#70#0" expanded="true" />
               </folding>
@@ -45,31 +113,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewpager.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpager/viewpager.css">
+      <file leaf-file-name="viewpagerjs.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpagerjs/viewpagerjs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="357">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/globalcss/base.css">
+      <file leaf-file-name="pager.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpagerjs/pager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-882">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="350">
+              <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+              <folding>
+                <element signature="e#44#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scroller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpagerjs/scroller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="61" column="40" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="40" />
+              <folding>
+                <element signature="n#!!doc;n#Scroller#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/globalcss/index.css">
+      <file leaf-file-name="M.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/component/generals/M.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="-1078">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -81,9 +173,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -93,18 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/redux/action/test.js" />
-        <option value="$PROJECT_DIR$/.eslintrc.js" />
-        <option value="$PROJECT_DIR$/postcss.config.js" />
-        <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/app/component/test1.js" />
-        <option value="$PROJECT_DIR$/app/component/Params.js" />
-        <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/app/redux/configureStoreOne.js" />
-        <option value="$PROJECT_DIR$/app/redux/configureStore.js" />
-        <option value="$PROJECT_DIR$/app/component/params.js" />
-        <option value="$PROJECT_DIR$/app/component/two.js" />
-        <option value="$PROJECT_DIR$/app/component/one.js" />
         <option value="$PROJECT_DIR$/app/component/mesage.js" />
         <option value="$PROJECT_DIR$/app/component/index.js" />
         <option value="$PROJECT_DIR$/app/redux/actionTypes.js" />
@@ -131,11 +211,8 @@
         <option value="$PROJECT_DIR$/app/component/index.css" />
         <option value="$PROJECT_DIR$/app/component/test.html" />
         <option value="$PROJECT_DIR$/build/test.html" />
-        <option value="$PROJECT_DIR$/app/component/inputest.js" />
         <option value="$PROJECT_DIR$/app/component/home.js" />
-        <option value="$PROJECT_DIR$/app/component/inteteam.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app/component/common/colorbtn.js" />
         <option value="$PROJECT_DIR$/app/component/common/segment.js" />
@@ -144,6 +221,21 @@
         <option value="$PROJECT_DIR$/globalcss/index.css" />
         <option value="$PROJECT_DIR$/app/component/inteteam/viewpager/viewpager.css" />
         <option value="$PROJECT_DIR$/app/component/inteteam/viewpager/viewpager.js" />
+        <option value="$PROJECT_DIR$/app/component/inteteam/viewpagerjs/test.html" />
+        <option value="$PROJECT_DIR$/app/component/inteteam/viewpagerjs/viewpager.js" />
+        <option value="$PROJECT_DIR$/app/component/inteteam/viewpagerjs/raf.js" />
+        <option value="$PROJECT_DIR$/app/component/generals/support.js" />
+        <option value="$PROJECT_DIR$/app/component/inputest.js" />
+        <option value="$PROJECT_DIR$/app/component/inteteam.js" />
+        <option value="$PROJECT_DIR$/app/component/generals/dom.js" />
+        <option value="$PROJECT_DIR$/app/component/generals/miracle.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/app/component/generals/M.js" />
+        <option value="$PROJECT_DIR$/app/component/inteteam/viewpagerjs/viewpagerjs.js" />
+        <option value="$PROJECT_DIR$/app/component/inteteam/viewpagerjs/scroller.js" />
+        <option value="$PROJECT_DIR$/app/component/inteteam/viewpagerjs/viewpagerjs.css" />
+        <option value="$PROJECT_DIR$/app/component/inteteam/viewpagerjs/pager.js" />
       </list>
     </option>
   </component>
@@ -229,20 +321,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="miracleReact" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="miracleReact" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -261,7 +339,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="redux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miracleReact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miracleReact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,16 +383,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miracleReact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miracleReact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inteteam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="viewpagerjs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miracleReact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miracleReact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inteteam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miracleReact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miracleReact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="F:/inteui/mdui-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -304,19 +474,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\gitRep\miracleReact\app\component\generals" />
+      <recent name="F:\gitRep\miracleReact\globalcss" />
+      <recent name="F:\gitRep\miracleReact" />
+      <recent name="F:\gitRep\miracleReact\app\images" />
+      <recent name="F:\reactDemo\testReact1.0\app\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\gitRep\miracleReact\globalcss" />
       <recent name="F:\gitRep\miracleReact" />
       <recent name="F:\reactDemo\testReact1.0\app\component\miracle\maincontent" />
       <recent name="F:\reactDemo\testReact1.0\app\component\miracle\navcontent" />
       <recent name="F:\reactDemo\testReact1.0\app\images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\gitRep\miracleReact\globalcss" />
-      <recent name="F:\gitRep\miracleReact" />
-      <recent name="F:\gitRep\miracleReact\app\images" />
-      <recent name="F:\reactDemo\testReact1.0\app\images" />
-      <recent name="F:\reactDemo\testReact1.0\images" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -466,12 +636,19 @@
       <workItem from="1495605591580" duration="19183000" />
       <workItem from="1495672891855" duration="9763000" />
       <workItem from="1495701459319" duration="5440000" />
-      <workItem from="1495759628906" duration="21474000" />
+      <workItem from="1495759628906" duration="22529000" />
+      <workItem from="1495845864776" duration="4727000" />
+      <workItem from="1496191487531" duration="18350000" />
+      <workItem from="1496236813290" duration="1927000" />
+      <workItem from="1496278015276" duration="19500000" />
+      <workItem from="1496364501192" duration="12109000" />
+      <workItem from="1496414551678" duration="247000" />
+      <workItem from="1496456386085" duration="27468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415219000" />
+    <option name="totallyTimeSpent" value="500602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -484,15 +661,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="1" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17277856" sideWeight="0.49355432" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17277856" sideWeight="0.49355432" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282123" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48391607" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39300698" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20310296" sideWeight="0.50644565" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -516,68 +693,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/mdui/js/mdui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/component/mesage.js" />
-    <entry file="file://$PROJECT_DIR$/app/component/params.js" />
-    <entry file="file://F:/inteteamFrontend/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/webpack-dev-server/client/live.js" />
-    <entry file="file://$PROJECT_DIR$/app/component/index.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/react/react.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/react/dist/react.js" />
-    <entry file="file://$PROJECT_DIR$/app/redux/action/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/redux/actionTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/redux/reducers/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/redux/reducers/selectThemeColor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/redux/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/redux/action/selectThemeColor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/images/me.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -608,14 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,28 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/component/inputest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/component/inteteam.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="100" selection-start-line="37" selection-start-column="100" selection-end-line="37" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -722,14 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,27 +844,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/component/miracle/maincontent/portrait.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/component/miracle/maincontent/about.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,40 +855,187 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/component/miracle/maincontent/portrait.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpager/viewpager.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpagerjs/test.html" />
+    <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpager/viewpager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mdui/js/mdui.min.js" />
+    <entry file="file://$PROJECT_DIR$/app/mdui/js/mdui.js" />
+    <entry file="file://$PROJECT_DIR$/app/redux/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/component/inputest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/globalcss/index.css">
+    <entry file="file://$PROJECT_DIR$/node_modules/react/react.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/component/inteteam.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/redux/configureStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#44#94#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/globalcss/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-882">
+        <state relative-caret-position="-3465">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpager/viewpager.css">
+    <entry file="file://$PROJECT_DIR$/globalcss/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="630">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpager/viewpager.js">
+    <entry file="file://$PROJECT_DIR$/app/component/generals/dom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        <state relative-caret-position="-5061">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpagerjs/raf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/component/generals/M.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1078">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpagerjs/scroller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="61" column="40" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc;n#Scroller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpagerjs/viewpagerjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding>
             <element signature="e#44#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpagerjs/viewpagerjs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/component/inteteam/viewpagerjs/pager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+          <folding>
+            <element signature="e#44#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
