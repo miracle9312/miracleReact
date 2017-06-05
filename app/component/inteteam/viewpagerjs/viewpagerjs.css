@@ -7,7 +7,6 @@
 .vp_page_items{
     height: 100%;
     display: block;
-    overflow: hidden;
     position: relative;
 }
 

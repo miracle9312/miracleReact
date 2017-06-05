@@ -12,7 +12,7 @@ export class Scroller {
         this.duration = 0.0;
         this.startTime = 0.0;
         this.DEFAULT_DURATION = 250;
-        this.animateFinished = false;
+        this.animateFinished = true;
         this.sViscousFluidScale = 8.0;
         this.sViscousFluidNormalize = 1.0;
     }
@@ -37,6 +37,14 @@ export class Scroller {
 
     getCurrentX(){
         return this.currentX;
+    }
+
+    getFinalX(){
+        return this.finalX;
+    }
+
+    isFinished(){
+        return this.animateFinished;
     }
 
     startScroll(startX,dx,duration){

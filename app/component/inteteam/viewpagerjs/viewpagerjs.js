@@ -5,11 +5,13 @@ import React from 'react';
 import './viewpagerjs.css';
 import {Pager} from './pager';
 import {M} from 'generals/M'
+import {Gesture} from '../generals/gesture_detector'
 
 let pager = null;
 let pager_w = null;
 let pageItems = null;
 let vpCls;
+let gestureCls;
 let offset = 0;
 
 export default class ViewPager extends React.Component{
@@ -23,11 +25,21 @@ export default class ViewPager extends React.Component{
         pager_w = pager.getBoundingClientRect().width;
         vpCls = new Pager(pager,{
             pages: this.props.pages.length,
+            pageItems: pageItems,
             onPageScroll: (positionInfo)=>{
                 offset = -positionInfo.totalOffset;
                 this.onValidateScroll();
             },
             onPageChange:this.onPageChange
+        });
+        gestureCls = new Gesture(pager,{
+            onDrag: function(p){
+                vpCls.position += p.dx;
+                vpCls.handleOnScroll(vpCls.position);
+            },
+            onFirstDrag: function(p){
+                p.event.preventDefault();
+            }
         });
         this.bindhandlers();
     }
@@ -72,7 +84,7 @@ export default class ViewPager extends React.Component{
                     {
                         this.props.pages.map((val,i)=>{
                             return(
-                                <div key={i} styleName="vp_page_item" style={{backgroundImage: "url("+val.url+")",width:100/this.props.pages.length+'%',}}></div>
+                                <div key={i} styleName="vp_page_item" style={{width:100/this.props.pages.length+'%',fontSize:'100px'}}>{i}</div>
                             )
                         })
                     }
